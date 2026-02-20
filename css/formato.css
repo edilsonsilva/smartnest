@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+#titulo{
+    color:rgb(9, 65, 147);
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 20px;
+    
+}
+form{
+    background-color: #fff;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding: 50px 10px;
+    text-align: center;
+}
+#welcome{
+    font-family: "arial";
+    font-size:25pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    text-align: left;
+    font-family: "arial";
+    font-size:10pt;
+    font-weight: bold;
+}
+
+input[type=email],input[type=password]{
+    width: 95%;
+    padding:10px;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    outline: none;
+}
+#lembrete{
+    width: 95%;
+    display: flex;
+}
+#lembrete span:nth-of-type(2){
+    font-family: "arial";
+    font-size:10pt;
+    width:60%;
+    text-align: right;
+    color: blue;
+}
+#lembrete span:nth-of-type(1){
+    font-family: "arial";
+    font-size:10pt;
+    width:30%;
+}
+input[type=button]{
+    width:95%;
+    background-color:#2e64ec ;
+    color:#fff;
+    padding: 20px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 15pt;
+    text-transform: capitalize;
+}
