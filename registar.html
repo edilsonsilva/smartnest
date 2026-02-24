@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="css/formato.css">
 </head>
 <body>
+
+    <div id="setavoltar"> < </div>
     
     <h1 id="titulo">SmartNest</h1>
 
     <form action="">
-        <p id="welcome">Welcome to SmartNest login now!</p>
         
+        <p id="welcome">Create an Account?</p>
+        
+        <label for="">Nome</label>
+        
+        <input type="text" name="txtnome" id="txtnome" required>
+
+
+
         <label for="">E-Mail</label>
         
         <input type="email" name="txtemail" id="txtemail" required>
@@ -23,11 +32,11 @@
 
         <div id="lembrete">
             <input type=checkbox>
-            <span>Remember me</span>
-            <span>Forget password?</span>
+            <span>I agree of the</span>
+            <span> Terms of Serivce</span>
         </div>
 
-        <input type="button" value="login">
+        <input type="button" value="Create account">
 
         <p>Or Sign in with</p>
 
@@ -47,8 +56,6 @@
 
     
     </form>
-
-<script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
